@@ -102,7 +102,7 @@ li {
 
 /* line 60, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/theme-default.scss */
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 30px;
   color: #777777;
@@ -257,6 +257,53 @@ h3 {
 }
 
 /* button style */
+.main-white-button {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.main-white-button a {
+  font-size: 18px;
+  color: #fff;
+  background-color: #BC4123;
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.main-white-button a:hover {
+  opacity: 0.9;
+}
+
+.main-text-button a {
+  font-size: 13px;
+  color: #fff;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.main-text-button a:hover {
+  opacity: 0.9;
+}
+.main-white-button-mobile {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-white-button-mobile a{
+  font-size: 13px;
+  color: #fff;
+  background-color: #BC4123;
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all .3s;
+}
+.main-white-button-mobile a:hover {
+  opacity: 0.9;
+}
 /* line 184, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/theme-default.scss */
 .owl-carousel .owl-nav div {
   background: transparent;
@@ -323,24 +370,24 @@ h3 {
   font-weight: 600;
   display: inline-block;
   padding: 18px 39px;
-  border: 2px solid #78b454;
+  border: 2px solid #BC4123;
   text-transform: capitalize;
 }
 
 /* line 9, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_btn.scss */
 .boxed_btn:hover {
-  background: #78b454;
+  background: #BC4123;
   color: #fff;
 }
 
 /* line 15, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_btn.scss */
 .boxed-btn {
-  color: #78b454 !important;
+  color: #BC4123 !important;
   font-size: 15px;
   font-weight: 600;
   display: inline-block;
   padding: 18px 39px;
-  border: 2px solid #78b454;
+  border: 2px solid #BC4123;
   text-transform: capitalize;
   cursor: pointer;
   background: #fff;
@@ -348,7 +395,7 @@ h3 {
 
 /* line 25, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #78b454;
+  background: #BC4123;
   color: #fff !important;
 }
 
@@ -378,7 +425,7 @@ h3 {
 
 /* line 49, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_btn.scss */
 .load_more_btn {
-  background: #78b454;
+  background: #BC4123;
   color: #fff;
   text-align: center;
   padding: 16px 41px;
@@ -390,8 +437,8 @@ h3 {
 
 /* line 58, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_btn.scss */
 .load_more_btn:hover {
-  color: #78b454 !important;
-  border: 2px solid #78b454;
+  color: #BC4123 !important;
+  border: 2px solid #BC4123;
   background: #fff;
 }
 
@@ -530,12 +577,12 @@ h3 {
 /* line 31, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #78b454;
+  color: #BC4123;
 }
 
 /* line 35, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #78b454;
+  color: #BC4123;
 }
 
 @media (max-width: 767px) {
@@ -711,6 +758,7 @@ h3 {
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
   }
+  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -724,7 +772,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #78b454;
+  background: #BC4123;
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -790,7 +838,7 @@ h3 {
 
 /* line 123, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #78b454;
+  color: #BC4123;
 }
 
 /* line 128, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_header.scss */
@@ -914,7 +962,7 @@ h3 {
 .header-area .main-header-area.sticky .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #78b454;
+  background: #BC4123;
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -980,7 +1028,7 @@ h3 {
 
 /* line 254, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .main-menu ul li .submenu li:hover a {
-  color: #78b454;
+  color: #BC4123;
 }
 
 /* line 259, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_header.scss */
@@ -1147,7 +1195,7 @@ h3 {
 
 /* line 19, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
 .service_area .single_service .service_icon i {
-  color: #78b454;
+  color: #bc4123;
   font-size: 50px;
 }
 
@@ -1169,7 +1217,7 @@ h3 {
 
 /* line 36, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_service.scss */
 .service_area .single_service:hover {
-  background: #78b454;
+  background: #BC4123;
   border: 2px solid transparent;
 }
 
@@ -1281,7 +1329,7 @@ h3 {
   font-size: 30px;
   line-height: 80px;
   border-radius: 50%;
-  background: #78b454;
+  background: rgb(188, 65, 35);
   text-align: center;
   display: inline-block;
 }
@@ -1319,7 +1367,8 @@ h3 {
 
 /* line 12, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_order.scss */
 .order_area .single_order .order_thumb img {
-  width: 100%;
+ width: 100%;
+ border-radius: 10px;
 }
 
 /* line 15, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_order.scss */
@@ -1328,7 +1377,7 @@ h3 {
   right: 10px;
   bottom: 10px;
   background: #fff;
-  color: #78b454;
+  color: #BC4123;
   padding: 17px 21px 13px 24px;
   border-radius: 5px;
   font-weight: 600;
@@ -1348,7 +1397,7 @@ h3 {
   content: "$";
   left: -5px;
   top: -1px;
-  color: #78b454;
+  color: #BC4123;
   font-size: 10px;
 }
 
@@ -1423,6 +1472,11 @@ h3 {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
+}
+.contact-details {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
 /* line 53, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_contact.scss */
@@ -1511,7 +1565,10 @@ h3 {
 
 /* line 133, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_contact.scss */
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 80px 0 100px;
+}
+.contact-section .section_title h3 {
+  font-size: 32px;
 }
 
 @media (max-width: 991px) {
@@ -1543,7 +1600,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_testmonial.scss */
 .testmonial_area {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 210px;
   background-size: cover;
   background-position: center;
@@ -1634,7 +1691,7 @@ h3 {
 
 /* line 66, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_testmonial.scss */
 .testmonial_area .testmonial_active .owl-dots .owl-dot.active {
-  background: #78b454;
+  background: #BC4123;
 }
 
 /* line 76, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_testmonial.scss */
@@ -1656,8 +1713,8 @@ h3 {
 
 /* line 4, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_footer.scss */
 .footer_area {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1701,6 +1758,13 @@ h3 {
   line-height: 36px;
 }
 
+.footer_area .footer_widget .open-hours li span {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+
+ }
 /* line 40, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_footer.scss */
 .footer_area .footer_widget .offer_text {
   color: #fff;
@@ -1735,7 +1799,7 @@ h3 {
   right: 0;
   top: 0;
   background: #fff;
-  color: #78b454;
+  color: #BC4123;
   width: 50px;
   border: 0;
   cursor: pointer;
@@ -1816,7 +1880,7 @@ h3 {
 
 /* line 121, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_footer.scss */
 .footer_area .footer-bottom .social_links ul li a:hover {
-  background-color: #78b454;
+  background-color: #BC4123;
   color: #fff;
 }
 
@@ -3635,7 +3699,7 @@ h6 {
 
 /* line 14, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #78b454 0%, #78b454 99%);
+  background: -webkit-linear-gradient(131deg, #BC4123 0%, #BC4123 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -4146,7 +4210,7 @@ h6 {
 
 /* line 544, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #78b454;
+  color: #BC4123;
 }
 
 /* line 549, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_blog.scss */
@@ -4214,7 +4278,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #78b454;
+  background-color: #BC4123;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -4442,7 +4506,7 @@ h6 {
 
 /* line 842, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #78b454;
+  background: #BC4123;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -4690,7 +4754,7 @@ h6 {
 
 /* line 1208, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #78b454;
+  color: #BC4123;
 }
 
 /* line 1213, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_blog.scss */
@@ -5119,7 +5183,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/CL August/199 Flatter Catering/199 Flatter Catering-HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #78b454;
+  color: #BC4123;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -5146,7 +5210,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #78b454;
+  background-color: #BC4123;
   border-radius: 50%;
 }
 
